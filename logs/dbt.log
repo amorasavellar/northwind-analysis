@@ -1,0 +1,37 @@
+[0m22:06:44.076496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b6760e930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b679b7bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b6760dd30>]}
+
+
+============================== 22:06:44.116208 | 546c6cec-1a9a-44bf-83cb-fe93413cccf4 ==============================
+[0m22:06:44.116208 [info ] [MainThread]: Running with dbt=1.10.11
+[0m22:06:44.116627 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'partial_parse': 'True', 'introspect': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'log_path': 'logs', 'quiet': 'False', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/amoras/.dbt', 'printer_width': '80', 'no_print': 'None', 'static_parser': 'True'}
+[0m22:06:44.164837 [info ] [MainThread]: Creating dbt configuration folder at /home/amoras/.dbt
+[0m00:20:49.300383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4f980d5640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4f9a2f12b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4f9837b6b0>]}
+
+
+============================== 00:20:49.304924 | 8ef56c46-6b07-4215-b557-b0a3ca2cf3b9 ==============================
+[0m00:20:49.304924 [info ] [MainThread]: Running with dbt=1.10.11
+[0m00:20:49.305391 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'log_cache_events': 'False', 'debug': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt init', 'log_format': 'default', 'printer_width': '80', 'empty': 'None', 'write_json': 'True', 'static_parser': 'True', 'version_check': 'True', 'profiles_dir': '/home/amoras/.dbt', 'quiet': 'False', 'no_print': 'None', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m00:21:33.184718 [debug] [MainThread]: Starter project path: /home/amoras/.cache/pypoetry/virtualenvs/northwind-analysis-nWeh5DHy-py3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m00:21:33.202987 [info ] [MainThread]: 
+Your new dbt project "northwind" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:21:33.203743 [info ] [MainThread]: Setting up your profile.
+[0m00:23:37.400944 [info ] [MainThread]: Profile northwind written to /home/amoras/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:23:37.402790 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 153.49431, "process_in_blocks": "66160", "process_kernel_time": 0.43675, "process_mem_max_rss": "102316", "process_out_blocks": "456", "process_user_time": 1.649476}
+[0m00:23:37.403313 [debug] [MainThread]: Command `dbt init` succeeded at 00:23:37.403178 after 153.49 seconds
+[0m00:23:37.403708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4f981e1040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4f988b7230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4f97740200>]}
+[0m00:23:37.404116 [debug] [MainThread]: Flushing usage events
+[0m00:23:38.206146 [debug] [MainThread]: An error was encountered while trying to flush usage events
